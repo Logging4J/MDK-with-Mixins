@@ -79,7 +79,6 @@ processResources {
 
 shadowJar {
     dependencies {
-        include(dependency('club.minnced:java-discord-rpc'))
         include(dependency('com.googlecode.json-simple:json-simple:1.1.1'))
         include(dependency('org.spongepowered:mixin'))
     }
